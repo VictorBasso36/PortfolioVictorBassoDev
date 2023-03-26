@@ -1,0 +1,5 @@
+.MainFooter{
+    background-color: var(--Main-Color);
+    min-height: 400px;
+    width: 100%;
+}
