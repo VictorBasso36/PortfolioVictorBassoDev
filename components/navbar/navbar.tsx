@@ -69,7 +69,7 @@ export default function Navbar() {
           <ul>
             <li>
               <Link href="/">
-                <p>WORK</p>
+                <p>PROJETOS</p>
               </Link>
             </li>
             <li>
@@ -79,12 +79,12 @@ export default function Navbar() {
             </li>
             <li>
               <Link href="/">
-                <p>CONTACT</p>
+                <p>CONTATO</p>
               </Link>
             </li>
             <li>
               <Link href="/">
-                <p>RESUME</p>
+                <p>RESUMO</p>
               </Link>
             </li>
           </ul>
