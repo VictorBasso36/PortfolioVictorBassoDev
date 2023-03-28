@@ -111,6 +111,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
     z-index: 4;
     left: 0;
     background-color: black;
@@ -125,10 +126,10 @@
 
 @keyframes modal-appear {
     from {
-      bottom: -100%;
+      top: -100%;
     }
     to {
-      bottom: 0;
+        top: 0;
     }
   }
 
@@ -261,6 +262,7 @@
     .MenuMainMenuNavbar{
         width: 50px;
         height: 60px;
+        cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;

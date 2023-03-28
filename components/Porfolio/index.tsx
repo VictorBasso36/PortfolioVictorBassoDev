@@ -15,7 +15,7 @@ export default function Porfolio() {
   return (
     <>
 
-      <div className={styles.MainPortfolio}>
+      <div className={styles.MainPortfolio} id="Porfolio">
         <div className={styles.MainPortfolioContainer}>
             <h3>Web Design & Development Portfolio</h3>
             <div className={styles.PorfolioHere}>
@@ -51,35 +51,35 @@ export default function Porfolio() {
               </Link>
             </SwiperSlide>
             <SwiperSlide >
-              <Link href="/">
+              <Link href="https://grupogenesis.com.br/" target="_blank">
                 <div className={styles.MainPortfolioItem} style={{ backgroundImage: `url('/Rectangle 1.png')` }}  >
                    
                 </div>
               </Link>
             </SwiperSlide>
             <SwiperSlide >
-              <Link href="/">
+              <Link href="https://arquelab.com.br/" target="_blank">
                 <div className={styles.MainPortfolioItem} style={{ backgroundImage: `url('/Rectangle 2.png')` }}  >
                    
                 </div>
               </Link>
             </SwiperSlide>
             <SwiperSlide >
-              <Link href="/">
+              <Link href="https://arquebricks.com.br/" target="_blank">
                 <div className={styles.MainPortfolioItem} style={{ backgroundImage: `url('/Rectangle 3.png')` }}  >
                    
                 </div>
               </Link>
             </SwiperSlide>
             <SwiperSlide >
-              <Link href="/">
+              <Link href="https://github.com/VictorBasso36" target="_blank">
                 <div className={styles.MainPortfolioItem} style={{ backgroundImage: `url('/github-wallpaper-scaled.jpeg')` }}  >
                    
                 </div>
               </Link>
             </SwiperSlide>
             <SwiperSlide >
-              <Link href="/">
+              <Link href="https://www.linkedin.com/in/victor-basso-b3090a189/" target="_blank">
                 <div className={styles.MainPortfolioItem} style={{ backgroundImage: `url('/LinkedIn-simbolo.jpg')` }}  >
                    
                 </div>

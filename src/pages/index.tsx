@@ -5,6 +5,7 @@ import Link from 'next/link'
 //components
 
 import Navbar from '../../components/navbar/navbar'
+import TypingEffect from '../../components/typing'
 import Button from '../../components/Button/'
 import Skills from '../../components/skills'
 import Porfolio from '../../components/Porfolio'
@@ -39,9 +40,9 @@ export default function Home() {
           <div className={styles.BannerHome}>
             <div className={styles.BannerHomeContainer}>
                 <h1>Hi, i´m Victor&nbsp;Basso</h1>
-                <p>Desenvolvedor de software <span>Fullstack</span>_</p>
+                <TypingEffect />
                 <div className={styles.ButtonsHere}>
-                  <Link href="/Contact"> 
+                  <Link href="#Contato" scroll={false}> 
                     <Button text="Contato" color="var(--Second-Color)"/>
                   </Link>
                   <Link href="/Profile" className={styles.SimpleButton}>

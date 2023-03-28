@@ -59,16 +59,16 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className={styles.menuNavbarContainer}>
-                    <Link href="/">
+                    <Link href="/#Porfolio" scroll={false}>
                       <p>PROJETOS</p>
                     </Link>
-                    <Link href="/">
+                    <Link href="/" target="_blank">
                       <p>BLOG</p>
                     </Link>
-                    <Link href="/">
+                    <Link href="/#Contato" scroll={false}>
                       <p>CONTATO</p>
                     </Link>
-                    <Link href="/">
+                    <Link href="/Resume" scroll={false}>
                       <p>RESUMO</p>
                     </Link>
                 </div>
@@ -90,22 +90,22 @@ export default function Navbar() {
         <div className={styles.MainMenuNavbar}>
           <ul>
             <li>
-              <Link href="/">
+              <Link href="/#Porfolio" scroll={false}>
                 <p>PROJETOS</p>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/" target="_blank">
                 <p>BLOG</p>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/#Contato" scroll={false}>
                 <p>CONTATO</p>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/Resume" scroll={false}>
                 <p>RESUMO</p>
               </Link>
             </li>

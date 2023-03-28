@@ -8,4 +8,10 @@
     font-size: 22px;
     align-items: center;
     justify-content: center;
+    transition: all 500ms;
+}
+
+.MainButton:hover{
+
+    background-color: var(--Suport-Color)!important;
 }
