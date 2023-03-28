@@ -34,10 +34,10 @@ export default function Navbar() {
     useEffect(() => {
         if (menu) {
           document.documentElement.style.overflow = "hidden";
-          window.scrollTo(0, 0)
+          
         } else {
           document.documentElement.style.overflow = "";
-          window.scrollTo(0, 0)
+          
         }
       }, [menu]);
 
@@ -49,7 +49,29 @@ export default function Navbar() {
         {menu &&
         
             <div className={styles.menuNavbar} onClick={() => SetMenu(!menu)}>
-                    a
+                <div className={styles.HeaderMenuNavgbar}>
+                    <div className={styles.CloseMenu}>
+                      <div className={styles.CloseMenuContainer}>
+                        <div></div>
+                        <div></div>
+                      </div>
+                        
+                    </div>
+                </div>
+                <div className={styles.menuNavbarContainer}>
+                    <Link href="/">
+                      <p>PROJETOS</p>
+                    </Link>
+                    <Link href="/">
+                      <p>BLOG</p>
+                    </Link>
+                    <Link href="/">
+                      <p>CONTATO</p>
+                    </Link>
+                    <Link href="/">
+                      <p>RESUMO</p>
+                    </Link>
+                </div>
             </div>
         }
 

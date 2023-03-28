@@ -3,6 +3,7 @@
     border-radius: 35px;
     height: 45px;
     border: none;
+    cursor: pointer;
     display: flex;
     font-size: 22px;
     align-items: center;

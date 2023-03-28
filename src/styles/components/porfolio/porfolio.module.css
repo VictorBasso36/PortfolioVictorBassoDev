@@ -1,0 +1,165 @@
+.MainPortfolio{
+    background-color: black;
+    min-height: 450px;
+    height: auto;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.MainPortfolioContainer{
+    width: 90%;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: var(--max-width);
+}
+
+.MainPortfolioContainer h3{
+    text-align: center;
+    font-size: 60px;
+    flex-direction: column;
+    color: white;
+    max-width: 800px;
+}
+.PorfolioHere{
+    width: 100vw;
+    max-width: 1600px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.MainPortfolioItem{
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    max-width: 650px;
+    height: 350px;
+    width: 650px;
+    border-radius: 25px;
+    background-color: gray;
+}
+
+
+
+@media  screen and (min-width:280px) and (max-width:550px) {
+    .MainPortfolioContainer h3{
+        text-align: center;
+        font-size: 35px;
+        flex-direction: column;
+        color: white;
+        max-width: 800px;
+    }
+
+
+    .MainPortfolioItem{
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        max-width: 650px;
+        height: 40vw;
+        width: 70vw;
+        border-radius: 25px;
+        background-color: gray;
+    }
+    
+}
+
+@media  screen and (min-width:550px) and (max-width:850px) {
+    .MainPortfolioContainer h3{
+        text-align: center;
+        font-size: 50px;
+        flex-direction: column;
+        color: white;
+        max-width: 800px;
+    }
+
+
+    .MainPortfolioItem{
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        max-width: 650px;
+        height: 40vw;
+        width: 70vw;
+        border-radius: 25px;
+        background-color: gray;
+    }
+    
+}
+
+@media  screen and (min-width:850px) and (max-width:1024px) {
+    .MainPortfolioContainer h3{
+        text-align: center;
+        font-size: 60px;
+        flex-direction: column;
+        color: white;
+        max-width: 800px;
+    }
+
+
+    .MainPortfolioItem{
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        max-width: 650px;
+        height: 40vw;
+        width: 70vw;
+        border-radius: 25px;
+        background-color: gray;
+    }
+    
+}
+
+@media  screen and (min-width:1024px) and (max-width:1600px) {
+    .MainPortfolioContainer h3{
+        text-align: center;
+        font-size: 60px;
+        flex-direction: column;
+        color: white;
+        max-width: 800px;
+    }
+
+
+    .MainPortfolioItem{
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        max-width: 650px;
+        height: 20vw;
+        width:37vw;
+        border-radius: 25px;
+        background-color: gray;
+    }
+    
+}
+
+@media screen and (min-width:1600px){
+    .MainPortfolioItem{
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        max-width: 650px;
+        height: 350px;
+        width: 600px;
+        border-radius: 25px;
+        background-color: gray;
+    }   
+}

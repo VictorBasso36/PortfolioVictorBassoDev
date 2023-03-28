@@ -70,3 +70,13 @@
     font-weight: 600;
     font-size: 20px;
 }
+
+
+@media screen and (min-width:280px) and (max-width:550px){
+  
+.MainSectionSkillsContainer h2{
+  font-size: 40px;
+  text-align: center;
+  line-height: 100%;
+}
+}

@@ -107,10 +107,74 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 4;
     left: 0;
-    background-color: white;
+    background-color: black;
+    transition: height 0.5s ease-in-out;
+    overflow: hidden;
+    animation-name: modal-appear;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
+
+
+@keyframes modal-appear {
+    from {
+      bottom: -100%;
+    }
+    to {
+      bottom: 0;
+    }
+  }
+
+.menuNavbarContainer{
+    width: 90%;
+    height: 100%;
+    max-width: var(--max-width);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.menuNavbarContainer p{
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+
+/* Aplicando estilos à barra de rolagem */
+.menuNavbarContainer::-webkit-scrollbar {
+    width: 5px; /* Largura da barra de rolagem */
+  }
+  
+  /* Estilizando o track da barra de rolagem */
+.menuNavbarContainer::-webkit-scrollbar-track {
+    transition: all 500ms;
+    background-color: black; /* Cor de fundo do track */
+  }
+  
+  /* Estilizando o thumb da barra de rolagem */
+.menuNavbarContainer::-webkit-scrollbar-thumb {
+    transition: all 500ms;
+    background-color: var(--Suport-Color); /* Cor do thumb */
+    border-radius: 0px 0px 0px 12px; /* Bordas arredondadas */
+  }
+  
+  /* Mudando a cor da barra de rolagem quando o mouse está sobre ela */
+.menuNavbarContainer::-webkit-scrollbar-thumb:hover {
+    transition: all 500ms;
+    background-color: var(--Main-Color);
+   
+  }
 
 
 
@@ -135,6 +199,49 @@
     margin-left: 10px;
 }
 
+
+.HeaderMenuNavgbar{
+    width: 90%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.CloseMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60px;
+    width: 60px;  
+    cursor: pointer;
+}
+
+.CloseMenuContainer{
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CloseMenuContainer div{
+    border-radius: 12px;
+    width: 100%;
+    background-color: white;
+    height: 5px;
+    position: absolute;
+}
+
+.CloseMenuContainer div:nth-child(1){
+    transform: rotate(-45deg);
+}
+.CloseMenuContainer div:nth-child(2){
+    transform: rotate(45deg);
+}
 
 @media screen and (min-width:1024px){
     .MainMenuNavbar{
@@ -201,5 +308,11 @@
         font-weight: 600;
         font-size: 30px;
         margin-left: 10px;
+    }
+
+    .menuNavbarContainer p{
+        color: white;
+        font-weight: 600;
+        font-size: 40px;
     }
 }

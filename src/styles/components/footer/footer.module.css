@@ -1,5 +1,53 @@
 .MainFooter{
     background-color: var(--Main-Color);
     min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+}
+
+.MainFooterContainer{
+    width: 90%;
+    max-width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainFooterContainer p{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+.ContainerIconsFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ContainerIconsFooter div{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+
+@media screen and (min-width:280px) and (max-width:550px){
+    .MainFooterContainer p{
+        color: white;
+        text-align: center;
+        font-size: 18px;
+    }  
 }
