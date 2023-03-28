@@ -24,7 +24,7 @@ export default function Skills() {
                         <Button text="Resumo" textColor="white" Color="black"/>
                     </Link>
                     <Link href="/" >
-                        <p className={styles.SimpleButton}>Sobre mim</p>
+                        <p className={styles.SimpleButton}>Habilidades</p>
                     </Link>
                 </div>
                 <div className={styles.marquee}>
