@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Victor Basso - Progrador Fullstack e Web/App Designer</title>
+        <title>Victor Basso - Programador Fullstack e Web/App Designer</title>
         <meta name="title" content="Victor Basso - Progrador Fullstack e Web/App Designer"/>
         <meta name="description" content="Conheça Victor Basso, um programador Fullstack e designer Web/App especializado em Next.js, Node.js, React, Laravel, Javascript, PHP, MySQL, GitHub, Photoshop e Figma. Comprometido com a satisfação do cliente, Victor cria soluções web e aplicativos inovadores. Com conhecimentos avançados em SEO, ele pode ajudar a melhorar a visibilidade do seu site. Contate Victor para seu próximo projeto!"/>
         <meta name="keywords" content="programador Fullstack, Programador backend, Programador Frontend, designer Web/App, Next.js, Node.js, React, Laravel, PHP, MySQL, Javascript, GitHub, Photoshop, Figma, soluções web, aplicativos inovadores, satisfação do cliente, design intuitivo, experiência do usuário, SEO avançado, visibilidade do site, tráfego orgânico."/>
