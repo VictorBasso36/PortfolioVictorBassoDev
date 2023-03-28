@@ -23,7 +23,7 @@ export default function typing() {
         setCharIndex(0);
         setPhraseIndex(phraseIndex === phrases.length - 1 ? 0 : phraseIndex + 1);
       }
-    }, charIndex === phrases.length ? 2000 : 100);
+    }, charIndex === phrases.length ? 1000 : 100);
     return () => clearInterval(interval);
   }, [charIndex, phraseIndex]);
 
