@@ -39,7 +39,7 @@ export default function Home() {
           {/* Home */}
           <div className={styles.BannerHome}>
             <div className={styles.BannerHomeContainer}>
-                <h1>Hi, i´m Victor&nbsp;Basso</h1>
+                <h1>Hi, i'm Victor&nbsp;Basso</h1>
                 <TypingEffect />
                 <div className={styles.ButtonsHere}>
                   <Link href="#Contato" scroll={false}> 
