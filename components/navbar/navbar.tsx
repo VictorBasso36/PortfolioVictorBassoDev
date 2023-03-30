@@ -65,7 +65,7 @@ export default function Navbar() {
                     <Link href="https://medium.com/@victorbassodev" target="_blank">
                       <p>BLOG</p>
                     </Link>
-                    <Link href="/#Contato" scroll={false}>
+                    <Link href="#Contato" scroll={false}>
                       <p>CONTATO</p>
                     </Link>
                     <Link href="/Resume" scroll={false}>
@@ -100,7 +100,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href="/#Contato" scroll={false}>
+              <Link href="#Contato" scroll={false}>
                 <p>CONTATO</p>
               </Link>
             </li>

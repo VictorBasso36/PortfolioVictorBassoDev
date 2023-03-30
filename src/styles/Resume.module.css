@@ -1,0 +1,28 @@
+.ResumeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 950px;
+}
+
+.ContainerBannerResumo{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 350px;
+    justify-content: space-between;
+}
+
+.ResumeContainerText{
+    margin-top: 30px;
+    max-width: 800px;
+    font-size: 22px;
+}
+
+.Aboutme:hover{
+    color: var(--Suport-Color);
+}
