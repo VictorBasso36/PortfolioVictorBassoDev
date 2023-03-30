@@ -50,4 +50,12 @@
         text-align: center;
         font-size: 18px;
     }  
+    .ContainerIconsFooter div{
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
 }

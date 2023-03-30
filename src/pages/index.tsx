@@ -50,7 +50,7 @@ export default function Home() {
                   </Link>
                 </div>
                
-                <Image className={styles.Sticker}  alt="Victor Basso Programador" src="/sticker.png" width={280} height={280}>
+                <Image className={styles.Sticker} layout={"responsive"} alt="Victor Basso Programador" src="/sticker.png" width={250} height={250}>
 
                 </Image>
             </div>  

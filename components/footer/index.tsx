@@ -28,11 +28,11 @@ export default function Footer() {
                   {whatsapp }
                 </Link>
               </div>
-              <div>
+              {/* <div>
                 <Link href="tel:+5511999978633">
                   {telefone}
                 </Link>
-              </div>
+              </div> */}
             </div>
             <Link href="mailto:victorbassodev@gmail.com">
               <p>Copyright © 2023 Victor Basso. All rights reserved.</p>
@@ -96,30 +96,3 @@ viewBox="0 0 50 50"
 <path d="M8 3.01c-3.47 0-5.99 2.08-5.99 4.94 0 2.87 2.58 5.04 5.99 5.04 3.47 0 5.99-2.12 5.99-5.1-.16-2.87-2.63-4.88-5.99-4.88zM3 15c-.55 0-1 .45-1 1v29c0 .55.45 1 1 1h10c.55 0 1-.45 1-1V16c0-.55-.45-1-1-1H3zm15 0c-.55 0-1 .45-1 1v29c0 .55.45 1 1 1h9a1 1 0 001-1V29.5c0-2.37 1.82-4.3 4.14-4.48.12-.02.24-.02.36-.02s.24 0 .36.02c2.32.18 4.14 2.11 4.14 4.48V45a1 1 0 001 1h9c.55 0 1-.45 1-1V28c0-6.47-3.47-13-11.21-13-3.52 0-6.18 1.36-7.79 2.49V16c0-.55-.45-1-1-1H18z"></path>
 </svg>
 
-const telefone =
-<svg
-      xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="32"
-      height="32"
-      fill="none"
-      viewBox="0 0 32 32"
-    >
-      <path fill="url(#pattern0)" d="M0 0H32V32H0z"></path>
-      <defs>
-        <pattern
-          id="pattern0"
-          width="1"
-          height="1"
-          patternContentUnits="objectBoundingBox"
-        >
-          <use transform="scale(.01)" xlinkHref="#image0_4_25"></use>
-        </pattern>
-        <image
-          id="image0_4_25"
-          width="100"
-          height="100"
-          xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEp0lEQVR4nO3dSYgdRRgA4I77vhKXqBHcQQ+iXhQxeNCTuOCCStwwjFuUeIqJAQ+iBE+uUQ+iCIJicEsU3OIWQRTEEDAiGsxixCWamE3F5JNiOiomceZNpru66tV3n5n6+3/Tr6vqr7+rqiiKoiiKoug47Ic78DHW4zcswJ3YM/b4+gouxQ+27QscGnuc2cNOmGl45mOH2GPOFg7Au3pzS+xxZwlH17ehXq0NPxt7/FnBGUN8XwxlHsbEjiMLmFg/PW2vG2LHkjxcj41GR7h1HRU7pmRh0igmY7O3y61rBHA5NmnGpJGMqW/hVKzTnNUYHzvOJISZNVZo3muxY00C5mjPdbHj7TSco12/4LDYcXcWXtG+ubHj7iysFMdVsWPvpHriFsPKsky/9YQsFs+c9j+CHYePxHVl7GvQKXg6ckJ+wsGxr0Nn4Hbx3RP7OnQGJsTOBr6KfR06A7tiTeSErI19Hfp56WRrvo99DToFN4nrjdjXoFMwFn9ETMiNsa9B5+ClSMlYjb1jx985uChSQmbEjr2TsCO+bjkZy7FH7Ng7K8IkcWLsmDsN+9QbSG34pNT/Di8pM1pKyFnNf8QygL3CRK3hZMyOHWdSMKXBZPyOY2LHmBTsMsKK9+GYFTu+JDVYjbIknDeJHV+S8HJDSZldan1HlpBxWNVQUqaN/keoD4SjaQ0lZCPOix1fcsLkDe83lJRVODF2jMnB4Q0W1C3HEbFjTA4u1pyFoRlB7BiTgycaTMo7YX8/doxJCW0zGpwwBs+GbYDYcSYFp9TLH015qqwC956UyZo1q0wce0/K4w0n5f5ex9TXsPMI+p/06u7YcSYlFEljacNJmRk7zqTg5IaPUwePlO+U3pJyRYMNBzZ7tDx99ZaU6Zr3TGik1vO/cb/Cwy0k5bmwoxk71pRWhp9vISnzsG/seJOA3fBeC0lZMNIGBHX92a14q17FXlcffr0XB1W5wf71Cm7TlvSyn1Kvxd01xAGlH0NXpCrTOcqiFpLyKy4cYixj6va23/Twe+dm1wIkbDy1dA5+U93Cdov+jjgbn47w94ay2oEqJ6G9H5Zpx+zNG104bhTPvIR+MOOqXOB4fKcdi/FYAyfCfsY1VS5w0na2nO2KV0ONQZUDnIBvpS8cwxvIYn2tvrcvk4fXs+gjiSND9wZ5CJPKqckvfBp8JP5SPkIx4bFVBrXDC+UjrADcnPR3i8G39bSx9tWmUGN2SJX4guRseVmU9OufDC7dPyQv06vUYVoL28Ft+azK6KUA66VvfZVZyepSaVtVZbin8oF0za8yfV3fg9I0pcqVwQnXaLwTqy0rsu8DZrBKso1t4e0VnhIvqPoBdscDuu2+qt/gknoXr2ve7NvqSoxv4UhELz7v+8OrBkt8BupdvJhCPVfpcvSfs/QvRkrGBpz+92CKf+Dc+tbRlj9x2b+GUGzjuN3kFkqPQr+Wq7cYQPG/tbxTG2oLEpJx7Tb+dDGMxAyM4qRyQ5YF2ZE2wc7HC9vR/CAsiZzW+uBzhwPDu97r+t81w1wOCV0mxsYee780/TwTt+FJfFi3XV9XV8CHYusJscdZFEVRFEVRVEP4Czo6iWQ6CRWgAAAAAElFTkSuQmCC"
-        ></image>
-      </defs>
-    </svg>

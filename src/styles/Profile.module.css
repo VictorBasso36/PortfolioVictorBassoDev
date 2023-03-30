@@ -78,6 +78,10 @@
         display: flex;
     }  
 
+    .MainPhoto{
+        display: none;
+    }
+
     .ProfileContent{
         width: 100%;
         max-width: 100%;

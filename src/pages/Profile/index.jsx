@@ -7,11 +7,7 @@ import stylesprofile from '@/styles/Profile.module.css'
 //components
 
 import Navbar from '../../../components/navbar/navbar'
-import TypingEffect from '../../../components/typing'
-import Button from '../../../components/Button/'
-import Skills from '../../../components/skills'
-import Porfolio from '../../../components/Porfolio'
-import Orcamento from '../../../components/Orcamento/'
+import Detailstecnologias from '../../../components/profile/detailstecnologias'
 import Footer from '../../../components/footer/'
 
 
@@ -73,16 +69,15 @@ export default function Profile() {
                         {whatsapp }
                       </Link>
                     </div>
-                    <div>
-                      <Link href="tel:+5511999978633">
-                        {telefone}
-                      </Link>
-                    </div>
+        
                   </div>
                   </div>
               </div>
             </div>  
           </div>
+          {/*tecnologias detalhes*/}
+          <Detailstecnologias/>
+
 
       </main>
       <Footer/>

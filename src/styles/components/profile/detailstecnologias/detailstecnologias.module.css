@@ -1,0 +1,109 @@
+.MainDetails{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.MainDetailsDiv{
+    width: 90%;
+    max-width: var(--max-width);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.MainDetailsDiv h1{
+    text-align: end;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.FlexGridDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.DetailsItem{
+    margin: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-left: #D9D9D9 solid 2px;
+    max-width: 450px;
+    width: 100%;
+}
+
+.DetailsItem strong{
+    
+    font-size: 22px;
+}
+
+.DetailsItem p{
+    margin-top: 5px;
+    line-height: 100%;
+    color: black;
+    font-weight:600;
+    font-size: 14px;
+}
+
+.stickerTitle{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -30px;
+}
+
+@media screen and (min-width:550px) and (max-width:1024px){
+    .MainDetailsDiv h1{
+        text-align: end;
+        font-size: 60px;
+        margin-bottom: 60px;
+    }  
+}
+
+@media screen and (min-width:550px) and (max-width:850px){
+    .MainDetailsDiv h1{
+        text-align: end;
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+    .stickerTitle{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        margin-left: -20px;
+        margin-top: -30px;
+    }
+    
+}
+
+@media screen and (min-width:280px) and (max-width:550px){
+    .MainDetailsDiv h1{
+        text-align: center;
+        font-size: 9vw;
+        margin-bottom: 0px;
+    }
+    .stickerTitle{
+        width: 25vw;
+        height: 25vw;
+        position: static;
+        margin: 0 auto 60px auto;
+    }
+
+    .detailsdivtitle{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+}
