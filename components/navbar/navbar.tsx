@@ -62,7 +62,7 @@ export default function Navbar() {
                     <Link href="/#Porfolio" scroll={false}>
                       <p>PROJETOS</p>
                     </Link>
-                    <Link href="/" target="_blank">
+                    <Link href="https://medium.com/@victorbassodev" target="_blank">
                       <p>BLOG</p>
                     </Link>
                     <Link href="/#Contato" scroll={false}>
@@ -95,7 +95,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href="/" target="_blank">
+              <Link href="https://medium.com/@victorbassodev" target="_blank">
                 <p>BLOG</p>
               </Link>
             </li>
