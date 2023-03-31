@@ -42,7 +42,7 @@ export default function Profile() {
                 
 
                   <div className={stylesprofile.MainPhoto}>
-                    <Image src="https://avatars.githubusercontent.com/u/66968560?s=400&u=acd30c4fafb7b6dff2db9d169619a043768abb28&v=4"   alt="Victor Basso Programador" layout={"responsive"} width={480} height={480}>
+                    <Image src="https://avatars.githubusercontent.com/u/66968560?v=4"   alt="Victor Basso Programador" layout={"responsive"} width={480} height={480}>
 
                     </Image>
                   </div>
