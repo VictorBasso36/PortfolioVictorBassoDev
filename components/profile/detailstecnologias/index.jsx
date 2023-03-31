@@ -23,11 +23,11 @@ export default function Detailstecnologias() {
               <div className={styles.FlexGridDetails}>
                   <div className={styles.DetailsItem}>
                     <strong>Backend</strong>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <p>Desenvolvimento de sistemas com laravel ou nodejs, API usando JSON Web Token ou Sanctum, MVC, Regras de Negocio, Manipulação e Analise de dados.</p>
                   </div>
                   <div className={styles.DetailsItem}>
                     <strong>Frontend</strong>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <p>Desenvolvimento de Interfaces, SPA, Landing Pages, Web APP, com React, NextJS, HTML, CSS, JavaScript, TypeScript além de conhecimentos avançados de SEO.</p>
                   </div>
                   <div className={styles.DetailsItem}>
                     <strong>Design</strong>
