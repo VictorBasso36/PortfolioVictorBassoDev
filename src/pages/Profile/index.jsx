@@ -49,9 +49,9 @@ export default function Profile() {
                   <div className={stylesprofile.ProfileContent}>
                     <h1>Hi, i<span>'</span>m Victor Basso </h1>
                     <br />
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+                    <p>Olá, meu nome é Victor Basso, tenho 20 anos e sou um programador Fullstack e designer Web/App. Gosto de criar soluções web e aplicativos inovadores, orquestrando computadores para expressar minha criatividade e ideias por meio de códigos e design. </p>
                     <br />
-                    <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>        
+                    <p>Estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades.</p>        
                     <br />
                     <div className={stylesprofile.ContainerIconsFooter}>
                     <div>
