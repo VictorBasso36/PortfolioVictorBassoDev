@@ -76,7 +76,7 @@ export default function Navbar() {
         }
 
 
-        <Link href="/Profile" className={styles.ProfileP}>
+        <Link href="/Profile" className={styles.ProfileP} title="Victor Basso Dev Perfil">
           <div className={styles.Profile} style={{
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
