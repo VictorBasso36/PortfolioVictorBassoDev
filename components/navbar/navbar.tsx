@@ -90,22 +90,22 @@ export default function Navbar() {
         <div className={styles.MainMenuNavbar}>
           <ul>
             <li>
-              <Link href="/#Porfolio" scroll={false}>
+              <Link href="/#Porfolio" scroll={false}> 
                 <p>PROJETOS</p>
               </Link>
             </li>
             <li>
-              <Link href="https://medium.com/@victorbassodev" target="_blank">
+              <Link href="https://medium.com/@victorbassodev" target="_blank" title="Victor Basso Dev Perfil"> 
                 <p>BLOG</p>
               </Link>
             </li>
             <li>
-              <Link href="#Contato" scroll={false}>
+              <Link href="#Contato" scroll={false} title="Victor Basso Dev Perfil">
                 <p>CONTATO</p>
               </Link>
             </li>
             <li>
-              <Link href="/Resume" scroll={false}>
+              <Link href="/Resume" scroll={false} title="Victor Basso Dev Perfil">
                 <p>RESUMO</p>
               </Link>
             </li>

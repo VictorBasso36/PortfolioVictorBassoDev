@@ -9,22 +9,22 @@ export default function Footer() {
 
       <footer className={styles.MainFooter} id="Contato">
           <div className={styles.MainFooterContainer}>
-            <Link href="mailto:victorbassodev@gmail.com">
+            <Link href="mailto:victorbassodev@gmail.com" title="Victor Basso Dev Perfil">
               <p>victorbassodev@gmail.com</p>  
             </Link>
             <div className={styles.ContainerIconsFooter}>
               <div>
-                <Link href="https://github.com/VictorBasso36" target="_blank">
+                <Link href="https://github.com/VictorBasso36" target="_blank" title="Victor Basso Dev Perfil">
                  {github}
                 </Link>
               </div>
               <div>
-                <Link href="https://www.linkedin.com/in/victor-basso-b3090a189/" target="_blank">
+                <Link href="https://www.linkedin.com/in/victor-basso-b3090a189/" target="_blank" title="Victor Basso Dev Perfil">
                   {linkedin}
                 </Link>
               </div>
               <div>
-                <Link href="https://wa.me/5511999978633?text=Ol%C3%A1!%20Aqui%20%C3%A9%20o%20Victor%20Basso,%20programador%20fullstack%20e%20webdesigner.%20Estou%20dispon%C3%ADvel%20para%20conversar%20sobre%20seus%20projetos%20e%20ideias%20para%20a%20web.%20Obrigado!" target="_blank">
+                <Link href="https://wa.me/5511999978633?text=Ol%C3%A1!%20Aqui%20%C3%A9%20o%20Victor%20Basso,%20programador%20fullstack%20e%20webdesigner.%20Estou%20dispon%C3%ADvel%20para%20conversar%20sobre%20seus%20projetos%20e%20ideias%20para%20a%20web.%20Obrigado!" target="_blank" title="Victor Basso Dev Perfil">
                   {whatsapp }
                 </Link>
               </div>
@@ -34,7 +34,7 @@ export default function Footer() {
                 </Link>
               </div> */}
             </div>
-            <Link href="mailto:victorbassodev@gmail.com">
+            <Link href="mailto:victorbassodev@gmail.com" title="Victor Basso Dev Perfil">
               <p>Copyright © 2023 Victor Basso. All rights reserved.</p>
             </Link>
           </div>
