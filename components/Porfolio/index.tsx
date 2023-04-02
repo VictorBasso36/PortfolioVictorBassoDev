@@ -44,42 +44,42 @@ export default function Porfolio() {
           >
 
             <SwiperSlide >
-              <Link href="/">
-                <div className={styles.MainPortfolioItem} style={{ backgroundImage: `url('/Rectangle 4.png')` }}  >
+              <Link href="/" title="Victor Basso Dev Perfil" >
+                <div className={styles.MainPortfolioItem}  style={{ backgroundImage: `url('/Rectangle 4.png')` }}  >
                    
                 </div>
               </Link>
             </SwiperSlide>
             <SwiperSlide >
-              <Link href="https://grupogenesis.com.br/" target="_blank">
+              <Link href="https://grupogenesis.com.br/" target="_blank" title="Victor Basso Dev Perfil">
                 <div className={styles.MainPortfolioItem} style={{ backgroundImage: `url('/Rectangle 1.png')` }}  >
                    
                 </div>
               </Link>
             </SwiperSlide>
             <SwiperSlide >
-              <Link href="https://arquelab.com.br/" target="_blank">
+              <Link href="https://arquelab.com.br/" target="_blank" title="Victor Basso Dev Perfil">
                 <div className={styles.MainPortfolioItem} style={{ backgroundImage: `url('/Rectangle 2.png')` }}  >
                    
                 </div>
               </Link>
             </SwiperSlide>
             <SwiperSlide >
-              <Link href="https://arquebricks.com.br/" target="_blank">
+              <Link href="https://arquebricks.com.br/" target="_blank" title="Victor Basso Dev Perfil">
                 <div className={styles.MainPortfolioItem} style={{ backgroundImage: `url('/Rectangle 3.png')` }}  >
                    
                 </div>
               </Link>
             </SwiperSlide>
             <SwiperSlide >
-              <Link href="https://github.com/VictorBasso36" target="_blank">
+              <Link href="https://github.com/VictorBasso36" target="_blank" title="Victor Basso Dev Perfil">
                 <div className={styles.MainPortfolioItem} style={{ backgroundImage: `url('/github-wallpaper-scaled.jpeg')` }}  >
                    
                 </div>
               </Link>
             </SwiperSlide>
             <SwiperSlide >
-              <Link href="https://www.linkedin.com/in/victor-basso-b3090a189/" target="_blank">
+              <Link href="https://www.linkedin.com/in/victor-basso-b3090a189/" target="_blank" title="Victor Basso Dev Perfil">
                 <div className={styles.MainPortfolioItem} style={{ backgroundImage: `url('/LinkedIn-simbolo.jpg')` }}  >
                    
                 </div>
