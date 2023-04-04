@@ -31,16 +31,13 @@ export default function Detailstecnologias() {
                   </div>
                   <div className={styles.DetailsItem}>
                     <strong>Design</strong>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <p>Experiência em desenvolvimento de interfaces e design Web/App, utilizando Figma e Photoshop. Essas habilidades me permitem criar projetos visualmente atraentes e funcionais.</p>
                   </div>
                   <div className={styles.DetailsItem}>
                     <strong>Banco de dados</strong>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <p>Conhecimentos em MySQL e MongoDB, permitindo aplicar cada um em seu contexto de necessidade e extrair o melhor de cada tecnologia, com segurança e diversos métodos de modelagem de dados.</p>
                   </div>
-                  <div className={styles.DetailsItem}>
-                    <strong>Metodologias</strong>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                  </div>
+              
               </div>
           </div>            
         </section>

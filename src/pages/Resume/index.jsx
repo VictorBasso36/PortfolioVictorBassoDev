@@ -40,7 +40,7 @@ export default function Resume() {
             <div className={styles.BannerHomeContainer}>
                 <div className={stylesResumo.ResumeContainer}>
                     <h1>Currículo em PDF</h1>
-                    <p className={stylesResumo.ResumeContainerText}>Lorem Ipsum is simply dummy text of the <span>printing</span> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+                    <p className={stylesResumo.ResumeContainerText}>Olá, meu nome é Victor Basso, tenho 20 anos e sou um <span>Programador Fullstack Junior e designer Web/App</span>. Gosto de criar soluções web e aplicativos inovadores, orquestrando computadores para expressar minha criatividade e ideias por meio de códigos e design. Estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades.</p>
                     <div className={stylesResumo.ContainerBannerResumo}>
                         <Button Color="white" text="Baixar aqui" color="var(--Second-Color)"/>
                         <Link href="/Profile">
