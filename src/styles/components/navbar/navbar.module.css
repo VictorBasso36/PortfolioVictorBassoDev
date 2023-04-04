@@ -181,7 +181,7 @@
 
 .scrolling .ProfileP p{
     display: flex;
-    display: none;
+    font-size: 22px;
 }
 .MainMenuNavbar .ProfileP p{
     display: none!important;
@@ -244,6 +244,7 @@
     transform: rotate(45deg);
 }
 
+
 @media screen and (min-width:1024px){
     .MainMenuNavbar{
         display: flex;
@@ -297,6 +298,8 @@
     .MenuContainer:hover div:nth-child(2){
         width: 100%;
     }
+
+ 
  
 }
 
@@ -316,5 +319,10 @@
         color: white;
         font-weight: 600;
         font-size: 40px;
+    }
+
+    .scrolling .ProfileP p{
+        display: none;
+        font-size: 22px;
     }
 }

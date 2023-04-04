@@ -84,7 +84,7 @@ export default function Navbar() {
           }}>
 
           </div>
-          {/* <p>Victor</p> */}
+          <p>Basso_Dev</p>
         </Link>
         
         <div className={styles.MainMenuNavbar}>
